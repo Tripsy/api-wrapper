@@ -1,0 +1,27 @@
+# Local development files
+*.local
+/.vscode/*
+!.vscode/extensions.json
+/.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Laravel and PHP
+/bootstrap/cache
+/public/hot
+/public/storage
+/storage/framework
+/vendor
+.env
+.env.backup
+.env.staging
+.env.production
+.php-cs-fixer.cache
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
