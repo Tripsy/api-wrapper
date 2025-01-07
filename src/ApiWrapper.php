@@ -26,7 +26,7 @@ class ApiWrapper
         $this->result = [
             'success' => false,
             'message' => '',
-            'errors' => '',
+            'errors' => [],
             'data' => [],
             //'meta' => [],
         ];
