@@ -109,7 +109,7 @@ class ApiWrapper
      */
     public function pushError(string $value, ?string $key = null): void
     {
-        $this->result['errors'][$key] = $value;
+        $this->result['errors'][$key ?? ''] = $value;
     }
 
     /**

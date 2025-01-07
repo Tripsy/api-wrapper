@@ -24,8 +24,8 @@ This package has been build to be used in Laravel, but it doesn't have strong de
 The package assumes the requests are made with `lluminate\Support\Facades\Http`
 
 Recommendations:
-  * php ^7.3
-  * laravel/framework ^8 
+  * php >= 7.3
+  * laravel/framework >= 8.0
 
 # Install
 
@@ -39,7 +39,8 @@ Require the package using composer:
 
     use Tripsy\ApiWrapper\ApiWrapper;
 
-    function index(ApiWrapper $apiWrapper): JsonResponse {
+    function index(ApiWrapper $apiWrapper): JsonResponse 
+    {
         $results = [];
 
         $apiWrapper->success(true);
